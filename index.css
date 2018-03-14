@@ -1,3 +1,8 @@
+.hidden
+{
+    display: none;
+}
+
 div 
 {
 	position: fixed;
@@ -15,7 +20,7 @@ html, body
 
 body 
 {
-    background-image: url("https://images2.alphacoders.com/805/805200.jpg");
+    background-image: url(./galaxy.jpg);
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;

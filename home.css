@@ -1,7 +1,7 @@
 :root
 {
     --size-of-words: 19px;
-    --border-curve: 30px;
+    --border-curve: 12px;
 }
 
 p 
@@ -30,7 +30,6 @@ body
 	width: 15%;
 	height: 15%;
 	margin: 1%;
-	border-width: 10px;
 }
 
 ul 
