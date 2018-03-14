@@ -30,6 +30,8 @@ body
 	width: 15%;
 	height: 15%;
 	margin: 1%;
+	border: black;
+	border-size: 10px;
 }
 
 ul 
