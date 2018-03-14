@@ -32,23 +32,3 @@ body
 	text-align: center;
 	transform: translate(-50%, 150%);	
 }
-
-button 
-{
-    background-color: #29436d;
-    border: none;
-	border-radius: 15px;
-    color: white;
-    padding: 20px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
-}
-
-button:hover
-{
-    background-color: #ed6110;
-    color: white;
-}

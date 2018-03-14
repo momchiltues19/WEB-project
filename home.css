@@ -4,11 +4,6 @@
     --border-curve: 12px;
 }
 
-p 
-{
-	text-align: center;
-}
-
 html, body 
 {
 	height: 100%;
@@ -42,7 +37,7 @@ ul
     position: fixed;
     height: 75%;
     overflow: auto;
-	border: none;
+    border: none;
 	border-radius: var(--border-curve);
 	
 }
@@ -66,7 +61,8 @@ li a:hover
 
 .main_space
 {
-    font-size: var(--size-of-words);	
+    font-size: var(--size-of-words);
+    text-align: center;	
     background-color: #fff;
 	margin: 1%;
     width: 82%;
