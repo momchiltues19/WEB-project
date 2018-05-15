@@ -16,7 +16,7 @@ body
     background-image: url("https://www.muralswallpaper.co.uk/app/uploads/dark-blue-grunge-cement-wall-mural-texture-plain.jpg");
     height: 100%; 
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     position: relative;
     /*overflow-y: scroll;*/
@@ -68,7 +68,7 @@ li a:hover
     background-color: #fff;
 	margin: 1%;
     width: 82%;
-	position: fixed;
+	position: absolute;
 	border: none;
 	border-radius: var(--border-curve);
 	top: 20%;
