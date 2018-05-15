@@ -4,6 +4,7 @@
 		
 		<title>Game wiki</title>
 		<link rel="stylesheet" type="text/css" href="home.css" />
+        <link rel="stylesheet" type="text/css" href="table.css" />
 		<script type="text/javascript" src="home.js"></script>
 	</head>
 	<body>
@@ -22,11 +23,22 @@
                         <a href="locations.html">location</a>
                     </div>
             </div>
-            <li><a class="dropbtn" href="about.html">About us</a></li>
-        </ul>
+			<li><a class="dropbtn" href="about.html">About us</a></li>
+		</ul>
 		<div class = "main_space">
-			<p>This is the plot page. Here you can see what this game is all about, story-wise. <br> <span style="font-size: 24px;">RANDOM IMAGE</span></p>
-            <img src="http://zidimperio.com/wp-content/uploads/8bit-art-awesome-retro-8-bit-and-pixel-art-prints-and-posters.png"></img>
+			<p>All in-game characters, items and locations</p>
+            <table>
+                <tr>
+                    <td><img class="img" src="./sprites/cave_walls.png"><br>Wall tile in cave</td>
+                    <td><img class="img" src="./sprites/cave_walls_with_door_back.png"><br>Door tile in cave</td>
+                    <td><img class="img" src="./sprites/test_background.png"><br>Old ground tile</td>
+                    <td><img class="img" src="./sprites/cave_ground.png"><br>Ground tile in cave</td>
+                </tr>
+                <tr>
+                    <td><img class="img" src="./sprites/test_mc_animations.png"><br>Old MC sprite</td>
+                    <td><img class="img" src="./sprites/mc_animations.png"><br>Current MC sprite</td>
+                </tr>
+            </table>
 		</div>
 	</body>
 </html>

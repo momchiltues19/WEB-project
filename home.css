@@ -18,6 +18,8 @@ body
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    /*overflow-y: scroll;*/
 }
 
 .hiki_logo
@@ -34,7 +36,7 @@ ul
     padding: 0;
     width: 15%;
     background-color: #000;
-    position: fixed;
+    position: relative;
     height: 75%;
     overflow: auto;
     border: none;
@@ -71,6 +73,7 @@ li a:hover
 	border-radius: var(--border-curve);
 	top: 20%;
 	left: 16%;
+    /*overflow: scroll;*/
 }
 
 .dropdown-content {
@@ -103,3 +106,17 @@ li a:hover
 .dropdown:hover .dropbtn {
     background-color: #333;
 } 
+
+.topnav {
+    float: right;
+    padding: 6px;
+    border: none;
+    border-radius: var(--border-curve);
+    margin-top: 8px;
+    margin-right: 17px;
+    font-size: var(--size-of-words);
+}
+
+.topnav input {
+    width: 220px;
+}
