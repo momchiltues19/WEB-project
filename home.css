@@ -120,3 +120,8 @@ li a:hover
 .topnav input {
     width: 220px;
 }
+
+.img {
+    width: 50%;
+    height: 50%;
+}
